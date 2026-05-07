@@ -1,0 +1,23 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "test-plugin-and-marketplace-json",
+  "description": "Public test marketplace repo containing a single example plugin.",
+  "owner": {
+    "name": "jaysunmah",
+    "email": "test@example.com"
+  },
+  "plugins": [
+    {
+      "name": "example-plugin",
+      "description": "Example plugin for validating a repository that contains both marketplace and plugin manifests.",
+      "version": "1.0.0",
+      "author": {
+        "name": "jaysunmah",
+        "email": "test@example.com"
+      },
+      "source": "./plugins/example-plugin",
+      "category": "development",
+      "homepage": "https://github.com/jaysunmah/test-plugin-and-marketplace-json/tree/main/plugins/example-plugin"
+    }
+  ]
+}
