@@ -1,0 +1,9 @@
+{
+  "name": "second-plugin",
+  "description": "Second example plugin for validating multi-plugin marketplace metadata.",
+  "version": "1.0.0",
+  "author": {
+    "name": "jaysunmah",
+    "email": "test@example.com"
+  }
+}
